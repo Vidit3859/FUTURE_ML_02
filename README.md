@@ -10,15 +10,15 @@ A machine learning project built as part of the FutureInterns Machine Learning I
 The goal of this project is to analyze customer behavior and predict whether a customer is likely to discontinue the service (churn).
 A machine learning model was developed using logistic regression and random forest algorithms, and the final output includes:
 
-Churn prediction model
+• Churn prediction model
 
-Churn probability scores
+• Churn probability scores
 
-Feature importance analysis
+• Feature importance analysis
 
-Exported dataset for Power BI dashboard
+• Exported dataset for Power BI dashboard
 
-Business recommendations
+• Business recommendations
 
 
 
@@ -50,22 +50,22 @@ Churn-Prediction-System/
 
 ## 🛠 Tools & Technologies Used
 
-Python
+• Python
 
-Pandas
+   ° Pandas
 
-NumPy
+   ° NumPy
 
-Matplotlib
+   ° Matplotlib
 
-Scikit-learn
+   ° Scikit-learn
 
 
-Power BI (for dashboard)
+• Power BI (for dashboard)
 
-VS Code (development environment)
+• VS Code (development environment)
 
-Git & GitHub (version control)
+• Git & GitHub (version control)
 
 
 
@@ -75,42 +75,42 @@ Git & GitHub (version control)
 
 ### 1. Data Preprocessing
 
-Removed customerID
+• Removed customerID
 
-Converted TotalCharges from object → numeric
+• Converted TotalCharges from object → numeric
 
-Handled missing values
+• Handled missing values
 
-Mapped churn (Yes/No → 1/0)
+• Mapped churn (Yes/No → 1/0)
 
-One-hot encoded all categorical features
+• One-hot encoded all categorical features
 
 
 ### 2. Exploratory Data Analysis
 
-Dataset info & summary statistics
+• Dataset info & summary statistics
 
-Churn distribution
+• Churn distribution
 
-Feature correlations & trends
+• Feature correlations & trends
 
 
 ### 3. Model Training
 
 Two models were trained and evaluated:
 
-Logistic Regression
+• Logistic Regression
 
-Accuracy: ~80%
+  ° Accuracy: ~80%
 
-ROC AUC: ~0.84
+  ° ROC AUC: ~0.84
 
 
-Random Forest
+• Random Forest
 
-Accuracy: ~79%
+  ° Accuracy: ~79%
 
-ROC AUC: ~0.82
+  ° ROC AUC: ~0.82
 
 
 
@@ -121,7 +121,7 @@ Logistic Regression performed slightly better on this dataset.
 
 ## 📈 Feature Importance Insights (Random Forest)
 
-Top factors influencing churn include:
+• Top factors influencing churn include:
 
 1. TotalCharges
 
@@ -145,7 +145,7 @@ Top factors influencing churn include:
 
 
 
-These insights helped shape the business recommendations.
+• These insights helped shape the business recommendations.
 
 
 ---
@@ -160,11 +160,11 @@ reports/churn_predictions.csv
 
 This file can be directly imported into Power BI to build a dashboard with:
 
-High-risk customer segments
+• High-risk customer segments
 
-Actual vs predicted churn
+• Actual vs predicted churn
 
-Churn probability distribution
+• Churn probability distribution
 
 
 
@@ -223,11 +223,11 @@ If you have any questions, feedback, or collaboration ideas, feel free to reach 
 
 ### Vidit Kumar
 
-#### Email: vidit.kumar624@gmail.com
+#### • Email: vidit.kumar624@gmail.com
 
-#### LinkedIn: linkedin.com/in/viditkumar-in
+#### • LinkedIn: linkedin.com/in/viditkumar-in
 
-#### GitHub: https://github.com/Vidit3859
+#### • GitHub: https://github.com/Vidit3859
 
 I’d love to connect!
 
