@@ -50,22 +50,17 @@ Churn-Prediction-System/
 
 ## 🛠 Tools & Technologies Used
 
-• Python
+- **Python**
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Scikit-learn
 
-   ° Pandas
+- **Power BI** (for dashboard)
 
-   ° NumPy
+- **VS Code** (development environment)
 
-   ° Matplotlib
-
-   ° Scikit-learn
-
-
-• Power BI (for dashboard)
-
-• VS Code (development environment)
-
-• Git & GitHub (version control)
+- **Git & GitHub** (version control)
 
 
 
@@ -99,20 +94,13 @@ Churn-Prediction-System/
 
 Two models were trained and evaluated:
 
-• Logistic Regression
+- **Logistic Regression**
+    - Accuracy: ~80%
+    - ROC AUC: ~0.84
 
-  ° Accuracy: ~80%
-
-  ° ROC AUC: ~0.84
-
-
-• Random Forest
-
-  ° Accuracy: ~79%
-
-  ° ROC AUC: ~0.82
-
-
+- **Random Forest**
+    - Accuracy: ~79%
+    - ROC AUC: ~0.82
 
 Logistic Regression performed slightly better on this dataset.
 
