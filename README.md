@@ -28,22 +28,19 @@ A machine learning model was developed using logistic regression and random fore
 
 ```.md
 Churn-Prediction-System/
-│
-├── data/
-│   └── raw/
-│       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
-├── notebooks/
-│   └── 01_churn_modeling.ipynb
-│
-├── reports/
-│   ├── churn_predictions.csv
-│   └── business_recommendations.md
-│
-├── src/
-│   └── (future scripts can be added here)
-│
-└── README.md
+  ├── data/
+  │   └── raw/
+  │       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+  │
+  ├── notebooks/
+  │   └── 01_churn_modeling.ipynb
+  │
+  ├── reports/
+  │   ├── churn_predictions.csv
+  │   ├── feature_importance.png
+  │   └── business_recommendations.md
+  │
+  └── README.md
 ```
 
 ---
