@@ -28,19 +28,23 @@ A machine learning model was developed using logistic regression and random fore
 
 ```.md
 Churn-Prediction-System/
-  ├── data/
-  │   └── raw/
-  │       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-  │
-  ├── notebooks/
-  │   └── 01_churn_modeling.ipynb
-  │
-  ├── reports/
-  │   ├── churn_predictions.csv
-  │   ├── feature_importance.png
-  │   └── business_recommendations.md
-  │
-  └── README.md
+│
+├── data/
+│   └── raw/
+│       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│
+├── notebooks/
+│   └── 01_churn_modeling.ipynb
+│
+├── reports/
+│   ├── churn_predictions.csv
+│   ├── feature_importance.png
+│   ├── business_recommendations.md
+│   └── churn_dashboard.png
+│
+├── churn_dashboard.pbix       ← (Power BI Dashboard File)
+│
+└── README.md
 ```
 
 ---
@@ -194,6 +198,36 @@ jupyter notebook notebooks/01_churn_modeling.ipynb
 
 
 ---
+
+## 📊 Power BI Dashboard
+
+This project includes a **Power BI dashboard** to visualize customer churn patterns and uncover important trends in the Telco dataset.
+
+### 🔍 Dashboard Highlights
+- Churn distribution (Yes vs No)
+- Churn by Contract Type
+- Churn by Internet Service
+- Churn by Payment Method
+- Churn by Senior Citizen
+- Churn by Tenure
+- Churn by Monthly Charges
+
+### 📝 Key Insights
+- Month-to-month contract users churn the most  
+- Electronic check users show higher churn  
+- Higher monthly charges increase churn probability  
+- Senior citizens have higher churn rate  
+- Fiber optic users churn more compared to DSL/No Internet  
+- Customers with low tenure churn frequently  
+
+### 📥 Dashboard Files
+- **Power BI File (.pbix):** `churn_dashboard.pbix`
+- **Dashboard Screenshot:**
+  ![Churn Dashboard](reports/churn_dashboard.png)
+
+
+---
+
 
 ## 🎯 Conclusion
 
