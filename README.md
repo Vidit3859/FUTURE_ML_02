@@ -221,9 +221,13 @@ This project includes a **Power BI dashboard** to visualize customer churn patte
 - Customers with low tenure churn frequently  
 
 ### 📥 Dashboard Files
+
 - **Power BI File (.pbix):** `churn_dashboard.pbix`
+
 - **Dashboard Screenshot:**
-  ![Churn Dashboard](reports/churn_dashboard.png)
+  
+![Churn Dashboard](reports/churn_dashboard.png)
+  
 
 
 ---
