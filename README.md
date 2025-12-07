@@ -34,7 +34,7 @@ Churn-Prediction-System/
 │       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
 │
 ├── notebooks/
-│   └── 01_churn_modeling.ipynb
+│   └── 01_churn_modeling.ipynb     # Logistic Regression, Random Forest, XGBoost
 │
 ├── reports/
 │   ├── churn_predictions.csv
@@ -104,6 +104,17 @@ Two models were trained and evaluated:
     - ROC AUC: ~0.82
 
 Logistic Regression performed slightly better on this dataset.
+
+
+### 📊 Model Performance Comparison
+
+| Model                | ROC AUC |
+|---------------------|---------|
+| Logistic Regression | 0.842   |
+| Random Forest       | 0.826   |
+| XGBoost             | 0.838   |
+
+➡ **Logistic Regression performed the best overall**, but **XGBoost was very close**, showing strong performance specially for churn-class cases.
 
 
 ---
