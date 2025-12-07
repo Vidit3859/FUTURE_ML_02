@@ -28,19 +28,23 @@ A machine learning model was developed using logistic regression and random fore
 
 ```.md
 Churn-Prediction-System/
-  ├── data/
-  │   └── raw/
-  │       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-  │
-  ├── notebooks/
-  │   └── 01_churn_modeling.ipynb
-  │
-  ├── reports/
-  │   ├── churn_predictions.csv
-  │   ├── feature_importance.png
-  │   └── business_recommendations.md
-  │
-  └── README.md
+│
+├── data/
+│   └── raw/
+│       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│
+├── notebooks/
+│   └── 01_churn_modeling.ipynb     # Logistic Regression, Random Forest, XGBoost
+│
+├── reports/
+│   ├── churn_predictions.csv
+│   ├── feature_importance.png
+│   ├── business_recommendations.md
+│   └── churn_dashboard.png
+│
+├── churn_dashboard.pbix       ← (Power BI Dashboard File)
+│
+└── README.md
 ```
 
 ---
@@ -100,6 +104,17 @@ Two models were trained and evaluated:
     - ROC AUC: ~0.82
 
 Logistic Regression performed slightly better on this dataset.
+
+
+### 📊 Model Performance Comparison
+
+| Model                | ROC AUC |
+|---------------------|---------|
+| Logistic Regression | 0.842   |
+| Random Forest       | 0.826   |
+| XGBoost             | 0.838   |
+
+➡ **Logistic Regression performed the best overall**, but **XGBoost was very close**, showing strong performance specially for churn-class cases.
 
 
 ---
@@ -194,6 +209,40 @@ jupyter notebook notebooks/01_churn_modeling.ipynb
 
 
 ---
+
+## 📊 Power BI Dashboard
+
+This project includes a **Power BI dashboard** to visualize customer churn patterns and uncover important trends in the Telco dataset.
+
+### 🔍 Dashboard Highlights
+- Churn distribution (Yes vs No)
+- Churn by Contract Type
+- Churn by Internet Service
+- Churn by Payment Method
+- Churn by Senior Citizen
+- Churn by Tenure
+- Churn by Monthly Charges
+
+### 📝 Key Insights
+- Month-to-month contract users churn the most  
+- Electronic check users show higher churn  
+- Higher monthly charges increase churn probability  
+- Senior citizens have higher churn rate  
+- Fiber optic users churn more compared to DSL/No Internet  
+- Customers with low tenure churn frequently  
+
+### 📥 Dashboard Files
+
+- **Power BI File (.pbix):** `churn_dashboard.pbix`
+
+- **Dashboard Screenshot:**
+  
+![Churn Dashboard](reports/churn_dashboard.png)
+  
+
+
+---
+
 
 ## 🎯 Conclusion
 
